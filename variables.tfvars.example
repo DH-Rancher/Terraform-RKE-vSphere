@@ -4,6 +4,7 @@ rancher2_secret_key = "secret"
 rancher2_insecure   = false
 
 node_template       = "vSphere-Template"
+cluster_cni         = "Canal"
 cluster_name        = "tf"
 cluster_description = "Created by tf"
 hostname_prefix     = "tf-"
