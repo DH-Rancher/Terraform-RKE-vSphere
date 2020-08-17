@@ -7,7 +7,7 @@ resource "rancher2_cluster" "cluster" {
   description = var.cluster_description
   rke_config {
     network {
-      plugin = "canal"
+      plugin = var.cluster_cni
     }
   }
 }
